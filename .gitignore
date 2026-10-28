@@ -1,0 +1,19 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Dataset files
+data/
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Operating system files
+.DS_Store
+Thumbs.db

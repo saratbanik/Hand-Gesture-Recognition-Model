@@ -1,0 +1,237 @@
+{
+  "dataset_root": "C:\\Users\\SARAT BANIK\\Desktop\\Programming\\Hand-Gesture-Recognition-Model\\data\\leapGestRecog",
+  "total_images": 20000,
+  "train_images": 16000,
+  "validation_images": 2000,
+  "test_images": 2000,
+  "image_size": 96,
+  "batch_size": 32,
+  "epochs_requested": 15,
+  "epochs_completed": 14,
+  "subject_split": {
+    "train_subjects": [
+      "00",
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07"
+    ],
+    "validation_subject": "08",
+    "test_subject": "09"
+  },
+  "test_loss": 0.03640417009592056,
+  "test_accuracy": 0.9845,
+  "macro_f1": 0.9844151445808258,
+  "class_names": [
+    "Palm",
+    "L",
+    "Fist",
+    "Moving Fist",
+    "Thumb",
+    "Index",
+    "OK",
+    "Moving Palm",
+    "C",
+    "Down"
+  ],
+  "classification_report": {
+    "Palm": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 200.0
+    },
+    "L": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 200.0
+    },
+    "Fist": {
+      "precision": 1.0,
+      "recall": 0.85,
+      "f1-score": 0.918918918918919,
+      "support": 200.0
+    },
+    "Moving Fist": {
+      "precision": 0.8695652173913043,
+      "recall": 1.0,
+      "f1-score": 0.9302325581395349,
+      "support": 200.0
+    },
+    "Thumb": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 200.0
+    },
+    "Index": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 200.0
+    },
+    "OK": {
+      "precision": 0.9950248756218906,
+      "recall": 1.0,
+      "f1-score": 0.9975062344139651,
+      "support": 200.0
+    },
+    "Moving Palm": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 200.0
+    },
+    "C": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 200.0
+    },
+    "Down": {
+      "precision": 1.0,
+      "recall": 0.995,
+      "f1-score": 0.9974937343358395,
+      "support": 200.0
+    },
+    "accuracy": 0.9845,
+    "macro avg": {
+      "precision": 0.9864590093013195,
+      "recall": 0.9844999999999999,
+      "f1-score": 0.9844151445808258,
+      "support": 2000.0
+    },
+    "weighted avg": {
+      "precision": 0.9864590093013195,
+      "recall": 0.9845,
+      "f1-score": 0.9844151445808259,
+      "support": 2000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      200,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      200,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      170,
+      30,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      200,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      200,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      200,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      200,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      200,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      200,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      199
+    ]
+  ]
+}
