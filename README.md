@@ -263,14 +263,10 @@ The project also generates:
 - Educational computer vision projects
 - Experimental smart-device control
 
-## Author
+---
 
-**Sarat Banik**
+<div align="center">
 
-GitHub: [@saratbanik](https://github.com/saratbanik)
+**Developed by [SARAT BANIK](https://www.linkedin.com/in/saratbanik)**
 
-**Repository:** [Hand-Gesture-Recognition-Model](https://github.com/saratbanik/Hand-Gesture-Recognition-Model)
-
-## License
-
-A license has not yet been specified for this project. Choose an appropriate license for your code and verify the dataset's usage terms before publishing or redistributing project materials.
+</div>
